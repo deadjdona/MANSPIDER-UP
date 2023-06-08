@@ -1,4 +1,4 @@
-# MAN-SPIDER
+# MAN-SPIDER UP-DATED
 ### Crawl SMB shares for juicy information. File content searching + regex is supported!
 
 ![manspider](https://user-images.githubusercontent.com/20261699/74963251-6a08de80-53df-11ea-88f4-60c39665dfa2.gif)
@@ -9,7 +9,7 @@
 - `XLSX`
 - `PPTX`
 - any text-based format
-- and many more!!
+- and many more!
 
 ### MAN-SPIDER will crawl every share on every target system. If provided creds don't work, it will fall back to "guest", then to a null session.
 ![manspider](https://user-images.githubusercontent.com/20261699/80316979-f9ab7e80-87ce-11ea-9628-3c22a07e8378.png)
