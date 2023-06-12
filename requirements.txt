@@ -1,6 +1,6 @@
-argcomplete==1.10.3 \
-    --hash=sha256:d8ea63ebaec7f59e56e7b2a386b1d1c7f1a7ae87902c9ee17d377eaa557f06fa \
-    --hash=sha256:a37f522cf3b6a34abddfedb61c4546f60023b3799b22d1cd971eacdc0861530a
+argcomplete==3.1.1 \
+    --hash=sha256:35fa893a88deea85ea7b20d241100e64516d6af6d7b0ae2bed1d263d26f70948 \
+    --hash=sha256:6c4c563f14f01440aaffa3eae13441c5db2357b5eec639abe7c0b15334627dff
 backports.zoneinfo==0.2.1; python_version < "3.9" and python_version >= "3.6" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.6") \
     --hash=sha256:da6013fd84a690242c310d77ddb8441a559e9cb3d3d59ebac9aca1a57b2e18bc \
     --hash=sha256:89a48c0d158a3cc3f654da4c2de1ceba85263fafb861b98b59040a5086259722 \
