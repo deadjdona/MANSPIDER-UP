@@ -390,12 +390,12 @@ files = [
 
 [[package]]
 name = "impacket"
-version = "0.9.24"
+version = "0.10.0"
 description = "Network protocols Constructors and Dissectors"
 optional = false
 python-versions = "*"
 files = [
-    {file = "impacket-0.9.24.tar.gz", hash = "sha256:18d557d387f4914fafa739813b9172bc3f8bd9c036e93bf589a8e0ebb7304bba"},
+    {file = "impacket-0.10.0.tar.gz", hash = "sha256:b8eb020a2cbb47146669cfe31c64bb2e7d6499d049c493d6418b9716f5c74583"},
 ]
 
 [package.dependencies]
@@ -1214,4 +1214,4 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=4.6)", "pytest-black (
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.6"
-content-hash = "7985792997ddbff72bbf184f3c7012a1642411bd000d5dfe3c9b2497ada55e02"
+content-hash = "3cfd7ca646d7f23759005fe4f5df689eebc059cb684ced11d6f0e27c1be5fa1c"
