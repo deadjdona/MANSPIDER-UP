@@ -855,14 +855,14 @@ files = [
 
 [[package]]
 name = "oletools"
-version = "0.60.1"
+version = "0.60.2"
 description = "Python tools to analyze security characteristics of MS Office and OLE files (also called Structured Storage, Compound File Binary Format or Compound Document File Format), for Malware Analysis and Incident Response #DFIR"
 optional = false
 python-versions = "*"
 groups = ["main"]
 files = [
-    {file = "oletools-0.60.1-py2.py3-none-any.whl", hash = "sha256:edef92374e688989a39269eb9a11142fb20a023629c23538c849c14d1d1144ea"},
-    {file = "oletools-0.60.1.zip", hash = "sha256:67a796da4c4b8e2feb9a6b2495bef8798a3323a75512de4e5669d9dc9d1fae31"},
+    {file = "oletools-0.60.2-py2.py3-none-any.whl", hash = "sha256:72ad8bd748fd0c4e7b5b4733af770d11543ebb2bf2697455f99f975fcd50cc96"},
+    {file = "oletools-0.60.2.zip", hash = "sha256:ad452099f4695ffd8855113f453348200d195ee9fa341a09e197d66ee7e0b2c3"},
 ]
 
 [package.dependencies]
@@ -871,7 +871,7 @@ easygui = "*"
 msoffcrypto-tool = {version = "*", markers = "platform_python_implementation != \"PyPy\" or python_version >= \"3\" and platform_system != \"Windows\" and platform_system != \"Darwin\""}
 olefile = ">=0.46"
 pcodedmp = ">=1.2.5"
-pyparsing = ">=2.1.0,<3"
+pyparsing = ">=2.1.0,<4"
 
 [package.extras]
 full = ["XLMMacroDeobfuscator"]
