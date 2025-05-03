@@ -5,10 +5,9 @@ import pathlib
 import logging
 import argparse
 import traceback
-from .lib import *
 from time import sleep
 import multiprocessing
-
+from .lib import *
 
 # set up logging
 log = logging.getLogger('manspider')
