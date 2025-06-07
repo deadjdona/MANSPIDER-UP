@@ -575,20 +575,18 @@ pyasn1 = ">=0.4.6"
 
 [[package]]
 name = "ldapdomaindump"
-version = "0.9.4"
+version = "0.10.0"
 description = "Active Directory information dumper via LDAP"
 optional = false
-python-versions = "*"
+python-versions = ">=3.6"
 groups = ["main"]
 files = [
-    {file = "ldapdomaindump-0.9.4-py2-none-any.whl", hash = "sha256:c05ee1d892e6a0eb2d7bf167242d4bf747ff7758f625588a11795510d06de01f"},
-    {file = "ldapdomaindump-0.9.4-py3-none-any.whl", hash = "sha256:51d0c241af1d6fa3eefd79b95d182a798d39c56c4e2efb7ffae244a0b54f58aa"},
-    {file = "ldapdomaindump-0.9.4.tar.gz", hash = "sha256:99dcda17050a96549966e53bc89e71da670094d53d9542b3b0d0197d035e6f52"},
+    {file = "ldapdomaindump-0.10.0-py3-none-any.whl", hash = "sha256:3797259596df7a5e1fda98388c96b1d94196f5da5551f1af1aaeedda0c9f5a11"},
+    {file = "ldapdomaindump-0.10.0.tar.gz", hash = "sha256:cbc66b32a7787473ffd169c5319acde46c02fdc9d444556e6448e0def91d3299"},
 ]
 
 [package.dependencies]
 dnspython = "*"
-future = "*"
 ldap3 = ">2.5.0,<2.5.2 || >2.5.2,<2.6 || >2.6"
 
 [[package]]
